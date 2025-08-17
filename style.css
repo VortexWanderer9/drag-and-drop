@@ -59,7 +59,6 @@ body {
 }
 
 
-
-
-
-
+.box.dragging{
+   opacity: 0.5;
+}
