@@ -4,11 +4,9 @@ let container = document.querySelector('.container')
 items.forEach(item =>{
     item.addEventListener('dragstart', () =>{
         item.classList.add('dragging');
-        console.log(item.textContent);
     })
     item.addEventListener('dragend', () =>{
         item.classList.remove('dragging');
-        console.log(item.textContent);
     })
 });
 const initSortBox = (e) => {
